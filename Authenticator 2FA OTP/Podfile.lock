@@ -1,0 +1,28 @@
+PODS:
+  - Base32 (1.1.2)
+  - OneTimePassword (3.2.0):
+    - Base32 (~> 1.1.2)
+  - SnapKit (5.0.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - OneTimePassword
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Base32
+    - OneTimePassword
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  Base32: 163c298644d184e89ca4e00a996bad6bf5166390
+  OneTimePassword: c00ecc908e67e6c5bfda9d50b0b2e4696d0b066e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 012cea183a7094f13fdd0fb1d5afbfbad5d123a3
+
+COCOAPODS: 1.11.2

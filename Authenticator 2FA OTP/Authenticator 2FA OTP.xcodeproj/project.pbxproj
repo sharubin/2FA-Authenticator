@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA68DDB0CE1A9481784D81A8 /* Pods_Authenticator_2FA_OTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F45153DC2C2CE761EB2BDAF /* Pods_Authenticator_2FA_OTP.framework */; };
+		EB40412228252EDA00C0BBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40412128252EDA00C0BBCF /* AppDelegate.swift */; };
+		EB40412428252EDA00C0BBCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40412328252EDA00C0BBCF /* SceneDelegate.swift */; };
+		EB40412628252EDA00C0BBCF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40412528252EDA00C0BBCF /* MainScreenViewController.swift */; };
+		EB40412B28252EDE00C0BBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB40412A28252EDE00C0BBCF /* Assets.xcassets */; };
+		EB40412E28252EDE00C0BBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB40412C28252EDE00C0BBCF /* LaunchScreen.storyboard */; };
+		EB4041392825336700C0BBCF /* SPQRCode in Frameworks */ = {isa = PBXBuildFile; productRef = EB4041382825336700C0BBCF /* SPQRCode */; };
+		EB40413B28253E7500C0BBCF /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40413A28253E7500C0BBCF /* MainScreenView.swift */; };
+		EB40413D28253F9200C0BBCF /* MainViewController+Delegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40413C28253F9200C0BBCF /* MainViewController+Delegate+DataSource.swift */; };
+		EB40413F2825401100C0BBCF /* TimePasswordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40413E2825401100C0BBCF /* TimePasswordCollectionViewCell.swift */; };
+		EB4041412825403900C0BBCF /* EnumAndStructForDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4041402825403900C0BBCF /* EnumAndStructForDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1955F84C7D4C7F555BCB8CFB /* Pods-Authenticator 2FA OTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authenticator 2FA OTP.release.xcconfig"; path = "Target Support Files/Pods-Authenticator 2FA OTP/Pods-Authenticator 2FA OTP.release.xcconfig"; sourceTree = "<group>"; };
+		3F45153DC2C2CE761EB2BDAF /* Pods_Authenticator_2FA_OTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authenticator_2FA_OTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B70CEC57699544F90C5D5A /* Pods-Authenticator 2FA OTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authenticator 2FA OTP.debug.xcconfig"; path = "Target Support Files/Pods-Authenticator 2FA OTP/Pods-Authenticator 2FA OTP.debug.xcconfig"; sourceTree = "<group>"; };
+		EB40411E28252EDA00C0BBCF /* Authenticator 2FA OTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authenticator 2FA OTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB40412128252EDA00C0BBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB40412328252EDA00C0BBCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB40412528252EDA00C0BBCF /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		EB40412A28252EDE00C0BBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB40412D28252EDE00C0BBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB40412F28252EDE00C0BBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB40413A28253E7500C0BBCF /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		EB40413C28253F9200C0BBCF /* MainViewController+Delegate+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Delegate+DataSource.swift"; sourceTree = "<group>"; };
+		EB40413E2825401100C0BBCF /* TimePasswordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePasswordCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB4041402825403900C0BBCF /* EnumAndStructForDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAndStructForDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB40411B28252EDA00C0BBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA68DDB0CE1A9481784D81A8 /* Pods_Authenticator_2FA_OTP.framework in Frameworks */,
+				EB4041392825336700C0BBCF /* SPQRCode in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7454F5227941480CD5AE2843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62B70CEC57699544F90C5D5A /* Pods-Authenticator 2FA OTP.debug.xcconfig */,
+				1955F84C7D4C7F555BCB8CFB /* Pods-Authenticator 2FA OTP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF3FFBDD16DE32B3D9F5D494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F45153DC2C2CE761EB2BDAF /* Pods_Authenticator_2FA_OTP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB40411528252EDA00C0BBCF = {
+			isa = PBXGroup;
+			children = (
+				EB40412028252EDA00C0BBCF /* Authenticator 2FA OTP */,
+				EB40411F28252EDA00C0BBCF /* Products */,
+				7454F5227941480CD5AE2843 /* Pods */,
+				AF3FFBDD16DE32B3D9F5D494 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB40411F28252EDA00C0BBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB40411E28252EDA00C0BBCF /* Authenticator 2FA OTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB40412028252EDA00C0BBCF /* Authenticator 2FA OTP */ = {
+			isa = PBXGroup;
+			children = (
+				EB4041352825303D00C0BBCF /* MainScreen */,
+				EB4041362825304C00C0BBCF /* Helpers */,
+				EB40412F28252EDE00C0BBCF /* Info.plist */,
+			);
+			path = "Authenticator 2FA OTP";
+			sourceTree = "<group>";
+		};
+		EB4041352825303D00C0BBCF /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB4041442826EC3500C0BBCF /* Model */,
+				EB4041432826EC2900C0BBCF /* View */,
+				EB4041422826EC1D00C0BBCF /* Controller */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		EB4041362825304C00C0BBCF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB40412128252EDA00C0BBCF /* AppDelegate.swift */,
+				EB40412328252EDA00C0BBCF /* SceneDelegate.swift */,
+				EB40412A28252EDE00C0BBCF /* Assets.xcassets */,
+				EB40412C28252EDE00C0BBCF /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB4041422826EC1D00C0BBCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB40412528252EDA00C0BBCF /* MainScreenViewController.swift */,
+				EB40413C28253F9200C0BBCF /* MainViewController+Delegate+DataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB4041432826EC2900C0BBCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB40413A28253E7500C0BBCF /* MainScreenView.swift */,
+				EB40413E2825401100C0BBCF /* TimePasswordCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB4041442826EC3500C0BBCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4041402825403900C0BBCF /* EnumAndStructForDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB40411D28252EDA00C0BBCF /* Authenticator 2FA OTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB40413228252EDE00C0BBCF /* Build configuration list for PBXNativeTarget "Authenticator 2FA OTP" */;
+			buildPhases = (
+				DCAC6988E1E7FD2A031D901B /* [CP] Check Pods Manifest.lock */,
+				EB40411A28252EDA00C0BBCF /* Sources */,
+				EB40411B28252EDA00C0BBCF /* Frameworks */,
+				EB40411C28252EDA00C0BBCF /* Resources */,
+				4AD1610EE63E500749862D4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Authenticator 2FA OTP";
+			packageProductDependencies = (
+				EB4041382825336700C0BBCF /* SPQRCode */,
+			);
+			productName = "Authenticator 2FA OTP";
+			productReference = EB40411E28252EDA00C0BBCF /* Authenticator 2FA OTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB40411628252EDA00C0BBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB40411D28252EDA00C0BBCF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EB40411928252EDA00C0BBCF /* Build configuration list for PBXProject "Authenticator 2FA OTP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB40411528252EDA00C0BBCF;
+			packageReferences = (
+				EB4041372825336700C0BBCF /* XCRemoteSwiftPackageReference "SPQRCode" */,
+			);
+			productRefGroup = EB40411F28252EDA00C0BBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB40411D28252EDA00C0BBCF /* Authenticator 2FA OTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB40411C28252EDA00C0BBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB40412E28252EDE00C0BBCF /* LaunchScreen.storyboard in Resources */,
+				EB40412B28252EDE00C0BBCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD1610EE63E500749862D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authenticator 2FA OTP/Pods-Authenticator 2FA OTP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authenticator 2FA OTP/Pods-Authenticator 2FA OTP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authenticator 2FA OTP/Pods-Authenticator 2FA OTP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAC6988E1E7FD2A031D901B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Authenticator 2FA OTP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB40411A28252EDA00C0BBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB40412628252EDA00C0BBCF /* MainScreenViewController.swift in Sources */,
+				EB40412228252EDA00C0BBCF /* AppDelegate.swift in Sources */,
+				EB40413F2825401100C0BBCF /* TimePasswordCollectionViewCell.swift in Sources */,
+				EB4041412825403900C0BBCF /* EnumAndStructForDataSource.swift in Sources */,
+				EB40413D28253F9200C0BBCF /* MainViewController+Delegate+DataSource.swift in Sources */,
+				EB40412428252EDA00C0BBCF /* SceneDelegate.swift in Sources */,
+				EB40413B28253E7500C0BBCF /* MainScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB40412C28252EDE00C0BBCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB40412D28252EDE00C0BBCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB40413028252EDE00C0BBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB40413128252EDE00C0BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB40413328252EDE00C0BBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B70CEC57699544F90C5D5A /* Pods-Authenticator 2FA OTP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SMW75QLFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Authenticator 2FA OTP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sparrowcode.apps.authenticator.Authenticator-2FA-OTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB40413428252EDE00C0BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1955F84C7D4C7F555BCB8CFB /* Pods-Authenticator 2FA OTP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SMW75QLFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Authenticator 2FA OTP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sparrowcode.apps.authenticator.Authenticator-2FA-OTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB40411928252EDA00C0BBCF /* Build configuration list for PBXProject "Authenticator 2FA OTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB40413028252EDE00C0BBCF /* Debug */,
+				EB40413128252EDE00C0BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB40413228252EDE00C0BBCF /* Build configuration list for PBXNativeTarget "Authenticator 2FA OTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB40413328252EDE00C0BBCF /* Debug */,
+				EB40413428252EDE00C0BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB4041372825336700C0BBCF /* XCRemoteSwiftPackageReference "SPQRCode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/SPQRCode";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB4041382825336700C0BBCF /* SPQRCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4041372825336700C0BBCF /* XCRemoteSwiftPackageReference "SPQRCode" */;
+			productName = SPQRCode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB40411628252EDA00C0BBCF /* Project object */;
+}

@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Authenticator 2FA OTP' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Authenticator 2FA OTP
+  pod 'Then'
+  pod 'SnapKit'
+  pod 'OneTimePassword'
+
+end
